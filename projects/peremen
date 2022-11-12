@@ -1,0 +1,85 @@
+# # x=0
+# # y=0
+# # def setup():
+# #     size(600,600)
+
+# # def draw():
+# #     global x
+# #     global y
+# #     background(255)
+# #     ellipse(x,y,50,50)
+# #     x=x+1
+# #     y=y+1
+# #     if x == 600:
+# #         x=0
+# #         y=0
+
+# # x=0
+# # y=0
+# # def setup():
+# #      size(600,600)
+# # def draw():
+# #      global x
+# #      global y
+# #      background(255)   
+# #      ellipse(300,300,x,y)
+# #      x=x+1
+# #      y=y+1
+# #      if x == 600:
+# #         x=0
+# #         y=0
+
+# y=1
+# x=0
+# def setup():
+#      size(600,600)
+# def draw():
+#      global x
+#      global y
+#      x=x+y
+#      background(255)
+#      ellipse(300,x,50,50)
+#      if x > 600:
+#         y=-1
+#      if x < 0:
+#         y=1
+
+# y=1
+# x=0
+# def setup():
+#       size(600,600)
+# def draw():
+#       global x
+#       global y
+#       background(255)
+#       rect(300,300,x,x)
+#       if x > 100:
+#          y=-1
+#       if x < 10:
+#          y=1
+#       x=x+y      
+#       y=1
+      
+# x=0
+# y=0
+# z=1
+# a=1
+# def setup():
+#        size(1000,600)
+# def draw():
+#       global x
+#       global y
+#       global z
+#       global a
+#       background(0)
+#       ellipse(y,x,50,50)
+#       x=x+z
+#       y=y+a
+#       if x > 600:
+#          z=-1
+#       if x < 0:
+#          z=1
+#       if y > 1000:
+#          a=-1
+#       if y < 0:
+#          a=1
