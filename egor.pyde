@@ -1,7 +1,7 @@
-# def setup():
-#     size(600,600)
-# def draw():
-#     background(0)
-#     ellipse(mouseX,mouseY,70,70)
-#     ellipse(mouseX,mouseY+75,100,100)
-#     ellipse(mouseX,mouseY-50,30,30)
+# x=[100,400,200,300]
+# y=[0,0,255,255,0,0]
+# size(600,600)
+# fill(y[0],y[1],y[2])
+# ellipse(300,100,x[0],x[1])
+# fill(y[3],y[4],y[5])
+# ellipse(300,300,x[2],x[3])
