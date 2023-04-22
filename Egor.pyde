@@ -1,39 +1,19 @@
-# x=0
-# def setup():
-#     size(600,600)
-
-# def draw():
-#     global x
-#     translate(300,300)
-#     rotate(radians(x))
-#     line(0,0,100,0)
-#     x=x+1
-#     background(255)
-
-# x=0
-# z=random(0,150)
-# def setup():
-#     size(600,600)
-    
-# def draw():
-#      global x
-#      global z
-#      background(0)
-#      translate(300,300)
-#      rotate(radians(x))
-#      ellipse(0,x+0,z+x,z+x)
-#      x=x+1
-
 x=0
-
 def setup():
-     size(600,600)
-
+    size(600,600)
 def draw():
-      global x
-      translate(300,300)
-      background(0)
-      rotate(radians(x))
-      ellipse(0,0,100,50)
-      rect(50,-10,30,20)
-      x=x+1
+    global x
+    img = loadImage("123.jpg")
+    image(img,0,0,600,600)
+    img = loadImage("1234.jpg")
+    image(img,0,0,600,600)
+    if x==2:
+        x=0
+    if keyPressed and key=="w":
+        x=x+1
+    if  x==0:
+        img = loadImage("123.jpg")
+        image(img,0,0,600,600)  
+    if  x==1:
+        img = loadImage("1234.jpg")
+        image(img,0,0,600,600)  
